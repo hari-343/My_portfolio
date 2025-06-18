@@ -1,121 +1,70 @@
-# My_portfolio
-# 🌐 3D Portfolio Website (React + Tailwind + Three.js)
+# Getting Started with Create React App
 
-A visually striking, interactive developer portfolio built using **React**, **Tailwind CSS**, and **Three.js**. The project highlights 3D animation in the hero section, showcases projects, and offers a clean contact form.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Live Demo
+## Available Scripts
 
-[Live Site](#) – *(Add your deployment link here)*
+In the project directory, you can run:
 
----
+### `npm start`
 
-## 📁 Project Structure
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-/portfolio-3d
-├── public/
-│ └── images/
-│ ├── profile.jpg
-│ ├── project1.jpg
-│ ├── project2.jpg
-│ └── project3.jpg
-├── src/
-│ ├── components/
-│ │ ├── Hero.js
-│ │ ├── About.js
-│ │ ├── Projects.js
-│ │ └── Contact.js
-│ ├── App.js
-│ ├── index.js
-│ └── index.css
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🛠️ Tech Stack
+### `npm run build`
 
-- **React** – Component-based UI development
-- **Tailwind CSS** – Utility-first styling
-- **Three.js** – WebGL 3D rendering
-- **Vite / CRA** – For fast dev environment *(choose based on your setup)*
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📦 Installed Packages
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm install react react-dom
-npm install -D tailwindcss postcss autoprefixer
-npm install three
-npx tailwindcss init -p
-Then configure tailwind.config.js:
-module.exports = {
-  content: ['./src/**/*.{js,jsx}', './public/index.html'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+### `npm run eject`
 
-🖼️ Assets Used
-/images/profile.jpg – Avatar or professional profile image
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-/images/project1.jpg – Task manager web app preview
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-/images/project2.jpg – E-commerce frontend snapshot
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-/images/project3.jpg – Landing page with 3D elements
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Ensure all images are placed inside /public/images/.
+## Learn More
 
-✨ Features
-Interactive 3D cube using three.js in Hero
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Responsive design using Tailwind's grid and flex
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Smooth scroll & transitions
+### Code Splitting
 
-Form validation in Contact section
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Reusable React components
+### Analyzing the Bundle Size
 
-🧠 Ideas to Expand
-Add motion animations with framer-motion
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Integrate email sending with EmailJS or Formspree
+### Making a Progressive Web App
 
-Deploy on Vercel, Netlify, or GitHub Pages
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-🖥️ Run Locally
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/portfolio-3d.git
-cd portfolio-3d
-npm install
-npm run dev   # or npm start if using CRA
-📄 License
-MIT © [Your Name]
+### Advanced Configuration
 
-🙌 Acknowledgements
-Three.js Examples
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Tailwind CSS Docs
+### Deployment
 
-React Official
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-yaml
-Copy
-Edit
+### `npm run build` fails to minify
 
----
-
-Let me know if you want a dark mode toggle, animated route transitions, or deploy instructions for GitHub Pages or Netlify.
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
